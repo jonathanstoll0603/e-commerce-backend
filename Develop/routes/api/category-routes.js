@@ -2,7 +2,6 @@ const router = require('express').Router();
 const { Category, Product } = require('../../models');
 
 // The `/api/categories` endpoint
-// *******Does Not Get All Products Listed??***********
 router.get('/', async (req, res) => {
   // find all categories
   try {
@@ -50,7 +49,7 @@ router.put('/:id', async (req, res) => {
   try {
     const categoryData = await Category.update({
       where: {
-        category_name: req.params.body 
+        id: req.params.id 
       }
     });
     res.status(200).json(categoryData);
