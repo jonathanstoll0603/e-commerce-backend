@@ -9,7 +9,7 @@ A backend e-commerce application powered by a custom made Express.js REST API an
 
 The E-Commerce backend is a server and database framework that provides all the necessary requirements to run a fully functioning ecommerce platform. With the use of a custom made REST API and MySQL database (through Sequelize's ORM library), user's can utilize GET, POST, PUT, and DELETE routes in order to modify/view items within the server database. Additionally, a seeds file is accessible for use if desired so that the user can easily sync large quanities of data within the node terminal. 
 
-A walkthrough video can be found in two parts. The [first](https://youtu.be/Use0G-gf3mM) part shows how to set up the database and seed all the necessary information, while the [second]() part shows the full functionality of the application. Because the application has no front end visualization, the examples will be demostrated using Postman. 
+A walkthrough video can be found in two parts. The [first](https://youtu.be/Use0G-gf3mM) part shows how to set up the database and seed all the necessary information, while the [second](https://www.youtube.com/watch?v=-Sta4W7Aw-s) part shows the full functionality of the application. Because the application has no front end visualization, the examples will be demostrated using Postman. 
 
 ---
     
