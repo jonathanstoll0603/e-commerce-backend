@@ -7,9 +7,9 @@ A backend e-commerce application powered by a custom made Express.js REST API an
     
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-The E-Commerce backend is a server and database framework that provides all the necessary requirements to run a fully functioning ecommerce platform. With the use of a custom made REST API and MySQL database (through Sequelize's ORM library), user's can utilize GET, POST, PUT, and DELETE routes in order to modify/view items within the server database. Additionally, a seeds file is accessible for use if desired so that the user can easily sync large quanities of data within the node terminal. Nodemon 
+The E-Commerce backend is a server and database framework that provides all the necessary requirements to run a fully functioning ecommerce platform. With the use of a custom made REST API and MySQL database (through Sequelize's ORM library), user's can utilize GET, POST, PUT, and DELETE routes in order to modify/view items within the server database. Additionally, a seeds file is accessible for use if desired so that the user can easily sync large quanities of data within the node terminal. 
 
-A walkthrough video can be found [here](www.blah) which shows the full extent of the functionality of the application. Because the application has no front end visualization, the walkthrough video will be demostrated using Postman. 
+A walkthrough video can be found in two parts. The [first](https://youtu.be/Use0G-gf3mM) part shows how to set up the database and seed all the necessary information, while the [second]() part shows the full functionality of the application. Because the application has no front end visualization, the examples will be demostrated using Postman. 
 
 ---
     
@@ -49,7 +49,7 @@ npm i
     
 ## Usage
     
-Ensure node.js is installed on your device, and then run the following commands to:
+Create a database via your MySQL workbench or within a MySQL Shell, ensure node.js is installed on your device, and then run the following commands to:
 
 1. seed your data
    
